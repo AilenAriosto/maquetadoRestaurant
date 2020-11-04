@@ -1,8 +1,9 @@
-*.scss
-*.jpg
 *.jpeg
+*.jpg
 *.png
+*.svg
 *.config
-home/
-img/
-images/
+node_modules/
+package-lock.json
+restaurant.jpg
+restaurant.psd
