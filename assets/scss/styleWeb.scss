@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/**
+ * Fonts
+ * -------------------------------------------------------
+ */
+@import '../fonts/_fonts.scss';
+
+
+/**
+ * Variables
+ * -------------------------------------------------------
+ */
+@import '_variables.scss';
+
+@import '../../components/header/scss/_pantallaWeb';
+@import '../../components/sections/About/scss/_pantallaWeb';
+@import '../../components/sections/Ingredients/scss/_pantallaWeb';
+@import '../../components/sections/Menu/scss/_pantallaWeb';
+@import '../../components/sections/Reviews/scss/_pantallaWeb';
+@import '../../components/sections/Reservation/scss/_pantallaWeb';
+@import '../../components/footer/scss/pantallaWeb';

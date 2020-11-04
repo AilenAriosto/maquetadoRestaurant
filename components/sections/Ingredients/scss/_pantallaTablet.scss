@@ -1,0 +1,19 @@
+// Section Ingredients 
+.sectionIngredients{
+    grid-template-columns: 1fr;
+}
+.sectionIngredients_container{
+    padding: 20px;
+}
+.sectionIngredients_container_images>img{
+    width: 80%;
+}
+.sectionMenu_rowOne,
+.sectionMenu_rowTwo{
+    -webkit-column-gap: 30px;
+        -moz-column-gap: 30px;
+            column-gap: 30px;
+}
+.sectionIngredients{
+    padding: 50px 10px;
+}

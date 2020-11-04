@@ -1,0 +1,39 @@
+// Section About 
+.sectionAbout{
+    background-image: url('https://i.imgur.com/9AqtWIp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+     grid-template-columns: 1fr;
+    padding: 50px 10px;
+}
+
+.sectionAbout_text{
+    -webkit-box-pack: center;
+            justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.sectionAbout_text__h2{
+    font-family: $yeseva;
+    color: #cc9900;
+    font-weight: 500;
+}
+
+.sectionAbout_text__parraf{
+    font-family: $lato;
+}
+
+.sectionAbout_text__img{
+    padding: 20px 0 0 80px;
+}
+
+.sectionAbout_image>img{
+    width: 100%;
+}

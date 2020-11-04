@@ -1,0 +1,28 @@
+@import 'components/_buttons.scss';
+    // Header 
+    .home_sectionBackground_header{
+        padding: 0 10px;
+    }
+    .home_sectionBackground_header_nav{
+        grid-template-columns: 3fr 10fr 2fr ;
+    }
+    .home_sectionBackground_header_nav_ul_li__a--social>span{
+        width: 30px;
+        height: 30px;
+    }
+    .home_sectionBackground_header_nav_listContainer{
+        display: none;
+    }
+    .sectionTitle__buttons{
+        display: block;
+        margin-top: 50px;
+    }    
+
+    .sectionTitle__h1{
+        font-size: 40px;
+    }
+    .home_sectionBackground_header_nav_socialContainer{
+        -webkit-box-pack: end;
+                justify-content: flex-end;
+        padding: 20px;
+    }

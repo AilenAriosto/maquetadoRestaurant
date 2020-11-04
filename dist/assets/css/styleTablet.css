@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Fonts
+ * -------------------------------------------------------
+ */
+/**
+ * Variables
+ * -------------------------------------------------------
+ */
+.btnDark {
+  border: 1px solid black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 30px;
+  font-family: "Lato", sans-serif;
+  margin-right: 50px;
+  text-decoration: none; }
+
+.btnDark:hover {
+  border: 2px;
+  background-color: black;
+  font-weight: bold; }
+
+.btnLight {
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: "Lato", sans-serif;
+  padding: 20px 30px;
+  text-decoration: none; }
+
+.btnLight:hover {
+  border: 2px;
+  background-color: white;
+  color: black;
+  font-weight: bold; }
+
+.btnReservation {
+  color: white;
+  background-color: #c9a131;
+  border: none;
+  font-family: "Lato", sans-serif;
+  padding: 9px 40px;
+  text-decoration: none;
+  display: table;
+  margin: 0 auto; }
+
+.btnReservation:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #c39e37;
+  font-weight: bold; }
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .btnDark {
+    margin-right: 0;
+    margin-bottom: 20px; } }
+
+.home_sectionBackground_header {
+  padding: 0 10px; }
+
+.home_sectionBackground_header_nav {
+  grid-template-columns: 3fr 10fr 2fr; }
+
+.home_sectionBackground_header_nav_ul_li__a--social > span {
+  width: 30px;
+  height: 30px; }
+
+.home_sectionBackground_header_nav_listContainer {
+  display: none; }
+
+.sectionTitle__buttons {
+  display: block;
+  margin-top: 50px; }
+
+.sectionTitle__h1 {
+  font-size: 40px; }
+
+.home_sectionBackground_header_nav_socialContainer {
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  padding: 20px; }
+
+.sectionAbout {
+  padding: 50px 10px; }
+
+.sectionIngredients {
+  grid-template-columns: 1fr; }
+
+.sectionIngredients_container {
+  padding: 20px; }
+
+.sectionIngredients_container_images > img {
+  width: 80%; }
+
+.sectionMenu_rowOne,
+.sectionMenu_rowTwo {
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px; }
+
+.sectionIngredients {
+  padding: 50px 10px; }
+
+.sectionMenu {
+  padding: 0 10px;
+  display: block;
+  padding: 50px 20px; }
+
+.sectionReviews {
+  grid-template-columns: 1fr;
+  padding: 50px 10px; }
+
+.btnDark {
+  border: 1px solid black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 30px;
+  font-family: "Lato", sans-serif;
+  margin-right: 50px;
+  text-decoration: none; }
+
+.btnDark:hover {
+  border: 2px;
+  background-color: black;
+  font-weight: bold; }
+
+.btnLight {
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: "Lato", sans-serif;
+  padding: 20px 30px;
+  text-decoration: none; }
+
+.btnLight:hover {
+  border: 2px;
+  background-color: white;
+  color: black;
+  font-weight: bold; }
+
+.btnReservation {
+  color: white;
+  background-color: #c9a131;
+  border: none;
+  font-family: "Lato", sans-serif;
+  padding: 9px 40px;
+  text-decoration: none;
+  display: table;
+  margin: 0 auto; }
+
+.btnReservation:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #c39e37;
+  font-weight: bold; }
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .btnDark {
+    margin-right: 0;
+    margin-bottom: 20px; } }
+
+.sectionReservation {
+  padding: 50px 10px;
+  grid-template-columns: 1fr; }
+
+.sectionReservation_colOne {
+  grid-template-columns: 1fr; }
+
+.sectionReservation_colTwo_form {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center; }
+
+.sectionReservation_colTwo_form__input {
+  width: 80%; }
+
+footer {
+  grid-template-columns: 1fr;
+  padding: 50px 10px;
+  row-gap: 20px; }

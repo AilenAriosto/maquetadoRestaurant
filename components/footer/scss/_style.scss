@@ -1,0 +1,70 @@
+// Section Footer 
+footer{
+    background-color: #191919;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 50px 10px;
+    -webkit-column-gap: 20px;
+       -moz-column-gap: 20px;
+            column-gap: 20px;
+}
+
+.footer_about__title,
+.footer_hours__title,
+.footer_directions__title{
+    color: white;
+    font-family: $yeseva;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.footer_about__parraf,
+.footer_hours__parraf
+{
+    color: white;
+    font-family: $open;
+    text-align: center;
+}
+
+.footer_directions__parraf{
+    color: white;
+    font-family: $open;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer_about>img,
+.footer_hours>img,
+.footer_directions>img{
+    display: block;
+    margin: 15px auto;
+}
+
+.footer_hours_payments{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer_directions{
+    text-align: center;
+}
+
+.footer_directions_social{
+    margin-top: 50px;   
+}
+
+.footer_directions_social__ul{
+    list-style: none;
+}
+
+.footer_directions_social__ul__list{
+    display: inline;
+    padding: 0 2px;
+}
+
+.footer_directions_social__ul__list__a{
+    color: white;
+    text-decoration: none;
+}

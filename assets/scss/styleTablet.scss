@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/**
+ * Fonts
+ * -------------------------------------------------------
+ */
+@import '../fonts/_fonts.scss';
+
+
+/**
+ * Variables
+ * -------------------------------------------------------
+ */
+@import '_variables.scss';
+
+
+@import '../../components/header/scss/_pantallaTablet';
+@import '../../components/sections/About/scss/_pantallaTablet';
+@import '../../components/sections/Ingredients/scss/_pantallaTablet';
+@import '../../components/sections/Menu/scss/_pantallaTablet';
+@import '../../components/sections/Reviews/scss/_pantallaTablet';
+@import '../../components/sections/Reservation/scss/_pantallaTablet';
+@import '../../components/footer/scss/_pantallaTablet';
+
+
