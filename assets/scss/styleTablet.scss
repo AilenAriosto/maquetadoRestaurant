@@ -8,7 +8,7 @@
  * Fonts
  * -------------------------------------------------------
  */
-@import '../fonts/_fonts.scss';
+@import '../fonts/_fonts.scss' ;
 
 
 /**
@@ -18,7 +18,7 @@
 @import '_variables.scss';
 
 
-@import '../../components/header/scss/_pantallaTablet';
+@import '../../components/header/scss/_pantallaTablet' ;
 @import '../../components/sections/About/scss/_pantallaTablet';
 @import '../../components/sections/Ingredients/scss/_pantallaTablet';
 @import '../../components/sections/Menu/scss/_pantallaTablet';

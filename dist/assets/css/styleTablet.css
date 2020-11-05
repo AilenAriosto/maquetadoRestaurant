@@ -63,42 +63,263 @@
     margin-right: 0;
     margin-bottom: 20px; } }
 
+.btnDark {
+  border: 1px solid black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 30px;
+  font-family: "Lato", sans-serif;
+  margin-right: 50px;
+  text-decoration: none; }
+
+.btnDark:hover {
+  border: 2px;
+  background-color: black;
+  font-weight: bold; }
+
+.btnLight {
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-family: "Lato", sans-serif;
+  padding: 20px 30px;
+  text-decoration: none; }
+
+.btnLight:hover {
+  border: 2px;
+  background-color: white;
+  color: black;
+  font-weight: bold; }
+
+.btnReservation {
+  color: white;
+  background-color: #c9a131;
+  border: none;
+  font-family: "Lato", sans-serif;
+  padding: 9px 40px;
+  text-decoration: none;
+  display: table;
+  margin: 0 auto; }
+
+.btnReservation:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #c39e37;
+  font-weight: bold; }
+
+@media (min-width: 320px) and (max-width: 640px) {
+  .btnDark {
+    margin-right: 0;
+    margin-bottom: 20px; } }
+
 .home_sectionBackground_header {
-  padding: 0 10px; }
+  padding: 0 10px;
+  height: 100vh;
+  background-image: url("https://i.imgur.com/cJrLXNF.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 1fr 8fr;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center; }
+
+.home_sectionBackground_header_nav_listContainer {
+  display: -webkit-box;
+  display: none;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  align-items: center; }
 
 .home_sectionBackground_header_nav {
+  display: grid;
   grid-template-columns: 3fr 10fr 2fr; }
+
+.home_sectionBackground_header_nav_ul {
+  list-style: none; }
+
+.home_sectionBackground_header_nav_ul > .home_sectionBackground_header_nav_ul_li {
+  display: inline;
+  padding: 0px 29px; }
+
+.home_sectionBackground_header_nav_ul_li__a {
+  color: white;
+  text-decoration: none;
+  font-family: "Gentium Book Basic", serif;
+  padding-top: 35px; }
+
+.home_sectionBackground_header_nav_ul_li__a:hover,
+.home_sectionBackground_header_nav_ul_li__a:active,
+.home_sectionBackground_header_nav_ul_li__a:focus {
+  border-top: 2px solid #c2bfb7; }
+
+.active {
+  border-top: 2px solid #c2bfb7; }
+
+.home_sectionBackground_header_nav_socialContainer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  padding: 20px; }
+
+.home_sectionBackground_header_nav_ul_li__a--social__iconify {
+  padding: 0 5px;
+  color: #dab33e; }
+
+.home_sectionBackground_header_nav_ul_li__a--social__iconify:hover {
+  color: #b99526; }
+
+.home_sectionBackground_header_nav_ul--social {
+  list-style: none; }
+
+.home_sectionBackground_header_nav_ul--social > .home_sectionBackground_header_nav_ul_li--social {
+  display: inline; }
+
+.home_sectionBackground_header_nav_ul_li__a--social {
+  text-decoration: none; }
+
+.sectionTitle {
+  grid-row: 2; }
+
+.sectionTitle_titles {
+  display: grid;
+  grid-column: 2; }
+
+.sectionTitle__h1 {
+  text-align: center;
+  color: white;
+  font-family: "Yeseva One", cursive;
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  font-weight: 500; }
+
+.sectionTitle__buttons {
+  text-align: center;
+  color: white;
+  display: block;
+  margin-top: 50px; }
+
+.sectionTitle__img {
+  margin: 0 auto; }
+
+.home_sectionBackground_header_nav--scroll {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50; }
+
+.header-logo--scroll {
+  width: 120px !important; }
+
+.home_sectionBackground_header_nav_ul_li__a--scroll {
+  padding-top: 15px; }
+
+.header-logo {
+  width: 100%; }
 
 .home_sectionBackground_header_nav_ul_li__a--social > span {
   width: 30px;
   height: 30px; }
 
-.home_sectionBackground_header_nav_listContainer {
-  display: none; }
-
-.sectionTitle__buttons {
-  display: block;
-  margin-top: 50px; }
-
-.sectionTitle__h1 {
-  font-size: 40px; }
-
-.home_sectionBackground_header_nav_socialContainer {
-  -webkit-box-pack: end;
-  justify-content: flex-end;
-  padding: 20px; }
+.home_sectionBackground_header_nav_container {
+  text-align: center; }
 
 .sectionAbout {
+  background-image: url("https://i.imgur.com/9AqtWIp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
   padding: 50px 10px; }
 
+.sectionAbout_text {
+  -webkit-box-pack: center;
+  justify-content: center;
+  align-self: center;
+  text-align: center; }
+
+.sectionAbout_text__h2 {
+  font-family: "Yeseva One", cursive;
+  color: #cc9900;
+  font-weight: 500; }
+
+.sectionAbout_text__parraf {
+  font-family: "Lato", sans-serif; }
+
+.sectionAbout_text__img {
+  padding: 20px 0 0 80px; }
+
+.sectionAbout_image > img {
+  width: 100%; }
+
 .sectionIngredients {
-  grid-template-columns: 1fr; }
+  background-image: url("https://i.imgur.com/tQp6156.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 50px 10px; }
 
 .sectionIngredients_container {
-  padding: 20px; }
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 20px;
+  display: grid;
+  grid-column: 2; }
+
+.sectionIngredients_container__h2 {
+  font-family: "Yeseva One", cursive;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 500; }
+
+.sectionIngredients_container__parraf {
+  font-family: "Lato", sans-serif;
+  color: white;
+  margin: 20px 0; }
+
+.sectionIngredients_container_images {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
 
 .sectionIngredients_container_images > img {
   width: 80%; }
+
+.sectionIngredients_container__divider {
+  margin: 0 auto; }
+
+.sectionIngredients_container_list {
+  display: grid;
+  grid-template-columns: 4fr 9fr 4fr;
+  display: none; }
+
+.sectionIngredients_container_list__iconify {
+  color: white; }
+
+.sectionIngredients_container_list__ul {
+  display: grid;
+  grid-column: 2;
+  text-align: left; }
+
+.sectionIngredients_container_list__li {
+  color: white;
+  font-family: "Lato", sans-serif;
+  list-style: none; }
 
 .sectionMenu_rowOne,
 .sectionMenu_rowTwo {
@@ -106,17 +327,126 @@
   -moz-column-gap: 30px;
   column-gap: 30px; }
 
-.sectionIngredients {
-  padding: 50px 10px; }
-
 .sectionMenu {
+  background-image: url("https://i.imgur.com/fTp3iph.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #cc9900;
+  -webkit-box-align: end;
+  align-items: end;
   padding: 0 10px;
   display: block;
   padding: 50px 20px; }
 
+.sectionMenu_rowOne {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 100px;
+  -moz-column-gap: 100px;
+  column-gap: 100px; }
+
+.sectionMenu_rowTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 100px;
+  -moz-column-gap: 100px;
+  column-gap: 100px; }
+
+.sectionMenu_menusPrices {
+  margin: 25px 0; }
+
+.sectionMenu_menusPrices_special_container {
+  border: 1px solid #cc9900;
+  padding: 0 10px; }
+
+.sectionMenu_menusPrices_special_badgeContainer {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end; }
+
+.sectionMenu_menusPrices_special__badge {
+  background-color: rgba(217, 192, 120, 0.6);
+  padding: 8px 20px;
+  color: white;
+  font-family: "Lato", sans-serif; }
+
+.sectionMenu_menuOne_h1 {
+  font-family: "Yeseva One", cursive;
+  font-weight: 500;
+  text-align: center;
+  height: 0px;
+  color: #cc9900;
+  margin-bottom: 20px; }
+
+.sectionMenu_menuOne_subtitle {
+  font-family: "Yeseva One", cursive;
+  font-weight: 500;
+  color: #cc9900;
+  border-bottom: 1px solid #cc9900;
+  padding: 15px 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between; }
+
+.sectionMenu_menuOne_parraf {
+  font-family: "Lato", sans-serif;
+  color: #4c4c4c;
+  padding: 10px 0; }
+
+.setionMenu__divider {
+  margin: 0 auto;
+  display: block; }
+
 .sectionReviews {
+  background-image: url("https://i.imgur.com/fJdUMGl.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
   grid-template-columns: 1fr;
   padding: 50px 10px; }
+
+.sectionReviews_container {
+  display: grid;
+  grid-column: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 100px 0; }
+
+.sectionReviews_container_rowOne {
+  margin: 0 auto 20px; }
+
+.sectionReviews_container__title {
+  text-align: center;
+  font-family: "Yeseva One", cursive;
+  margin-bottom: 10px;
+  font-weight: 500; }
+
+.sectionReviews_container__parraf {
+  color: #dde0df;
+  text-align: center;
+  font-family: "Gentium Book Basic", serif;
+  display: grid;
+  grid-column: 2;
+  line-height: 30px; }
+
+.sectionReviews_container__parraf__iconify {
+  font-size: 40px;
+  display: grid;
+  grid-column: 1;
+  color: rgba(242, 244, 244, 0.57); }
+
+.sectionReviews_container_rowTwo {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-items: end; }
+
+.sectionReviews_container__parraf__place {
+  font-family: "Lato", sans-serif;
+  padding-top: 50px; }
 
 .btnDark {
   border: 1px solid black;
@@ -168,21 +498,130 @@
     margin-bottom: 20px; } }
 
 .sectionReservation {
+  display: grid;
+  background-image: url("https://i.imgur.com/RIQYYxa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-column-gap: 70px;
+  -moz-column-gap: 70px;
+  column-gap: 70px;
   padding: 50px 10px;
   grid-template-columns: 1fr; }
 
 .sectionReservation_colOne {
-  grid-template-columns: 1fr; }
+  display: grid;
+  grid-template-columns: 1fr;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px; }
+
+.sectionReservation_colTwo_title {
+  font-family: "Yeseva One", cursive;
+  color: #cc9900;
+  text-align: center;
+  font-weight: 500; }
+
+.sectionReservation_colTwo_divider {
+  display: block;
+  margin: 0 auto; }
+
+.sectionReservation_colTwo_parraf {
+  color: #4c4c4c;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding-top: 30px; }
 
 .sectionReservation_colTwo_form {
   display: grid;
   grid-template-columns: 1fr;
+  -webkit-box-align: end;
+  align-items: end;
+  -webkit-column-gap: 50px;
+  -moz-column-gap: 50px;
+  column-gap: 50px;
+  padding-top: 40px;
   text-align: center; }
 
+.sectionReservation_colTwo_form > div > label {
+  font-family: "Open Sans", sans-serif;
+  color: #cc9900;
+  font-weight: bold; }
+
 .sectionReservation_colTwo_form__input {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+  margin: 10px 0 15px;
+  padding: 6px;
+  border: none;
+  outline: none;
   width: 80%; }
 
+.sectionReservation_colTwo_form__input:focus {
+  border: 1px solid #cc9900;
+  outline: 1px solid #cc9900; }
+
+.sectionReservation_colOne > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
 footer {
+  background-color: #191919;
+  color: white;
+  display: grid;
   grid-template-columns: 1fr;
   padding: 50px 10px;
-  row-gap: 20px; }
+  row-gap: 20px;
+  -webkit-column-gap: 50px;
+  -moz-column-gap: 50px;
+  column-gap: 50px; }
+
+.footer_about__title,
+.footer_hours__title,
+.footer_directions__title {
+  color: white;
+  font-family: "Yeseva One", cursive;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 500; }
+
+.footer_about__parraf,
+.footer_hours__parraf {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: center; }
+
+.footer_directions__parraf {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: bold; }
+
+.footer_about > img,
+.footer_hours > img,
+.footer_directions > img {
+  display: block;
+  margin: 15px auto; }
+
+.footer_hours_payments {
+  text-align: center;
+  margin-top: 50px; }
+
+.footer_directions {
+  text-align: center; }
+
+.footer_directions_social {
+  margin-top: 50px; }
+
+.footer_directions_social__ul {
+  list-style: none; }
+
+.footer_directions_social__ul__list {
+  display: inline;
+  padding: 0 2px; }
+
+.footer_directions_social__ul__list__a {
+  color: white;
+  text-decoration: none; }

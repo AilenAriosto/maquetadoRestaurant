@@ -2,7 +2,7 @@
 
 // Section Header + Home 
 .home_sectionBackground_header{
-    padding: 0 120px;
+    padding: 0 90px;
     height: 100vh;
     background-image: url('https://i.imgur.com/cJrLXNF.jpg');
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@
 
 .home_sectionBackground_header_nav{
     display: grid;
-    grid-template-columns: 2fr 9fr 1fr;
+    grid-template-columns: 2fr 9fr 2fr;
 }
 
 .home_sectionBackground_header_nav_ul{
@@ -36,7 +36,7 @@
 
 .home_sectionBackground_header_nav_ul>.home_sectionBackground_header_nav_ul_li{
     display: inline;
-    padding: 0px 30px;
+    padding: 0px 25px;
 }
 
 
@@ -122,12 +122,21 @@
 .home_sectionBackground_header_nav--scroll{
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
 }
 .header-logo--scroll{
-    width: 120px;
+    width: 120px !important;
 }
 
 .home_sectionBackground_header_nav_ul_li__a--scroll{
     padding-top: 15px;
 }
 
+
+.header-logo{
+    width: 100%;
+}

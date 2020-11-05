@@ -1,13 +1,11 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var pug = require('gulp-pug');
-const image = require('gulp-image');
+var image = require('gulp-image');
 
 gulp.task('sass', () => {
 
-    return gulp.src(['assets/scss/style.scss',
-                    'assets/scss/styleTablet.scss',
-                    'assets/scss/styleWeb.scss' ])
+    return gulp.src('*.scss')
         .pipe(sass())
         .pipe(gulp.dest('dist/assets/css'));
         
@@ -31,11 +29,11 @@ gulp.task('image', function () {
 
 gulp.task('watch', () =>{
 
-    gulp.watch(['assets/scss/style.scss'], function(sass) {
+    gulp.watch(['*.scss'], function(sass) {
         sass();
     });
 
-    gulp.watch(['index.pug'], function(pug) {
+    gulp.watch(['*.pug'], function(pug) {
         pug();
     });
 
