@@ -1,0 +1,75 @@
+// Section Ingredients 
+.sectionIngredients{
+    background-image: url('https://i.ibb.co/M6ns1j6/tQp6156.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+}
+
+.sectionIngredients_container{
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    grid-column: 2;
+
+}
+
+.sectionIngredients_container__h2{
+    font-family: $yeseva;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.sectionIngredients_container__parraf{
+    font-family: $lato;
+    color: white;
+    margin: 20px 0 ;
+}
+
+.sectionIngredients_container_images{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sectionIngredients_container_images>img{
+    width: 80%;
+}
+
+.sectionIngredients_container__divider{
+    margin: 0 auto;
+}
+
+@media(min-width: 640px)and(max-width:1023px){
+    .sectionIngredients{
+        padding: 50px 10px;
+    }
+
+    .sectionMenu_rowOne,
+    .sectionMenu_rowTwo{
+        -webkit-column-gap: 30px;
+            -moz-column-gap: 30px;
+                column-gap: 30px;
+    }
+
+}
+
+@media(min-width: 1024px){
+    .sectionIngredients{
+        padding: 50px 120px;
+        grid-template-columns: 6fr 6fr;
+    }
+    
+    .sectionIngredients_container{
+        padding: 50px;
+    }
+
+    .sectionIngredients_container_images>img{
+        width: 100%;
+    }
+}

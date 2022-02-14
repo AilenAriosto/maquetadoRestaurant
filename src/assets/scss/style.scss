@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import './components/_fonts.scss';
+@import './components/_variables.scss';
+@import './components/_buttons.scss';
+
+
+@import './components/sections/_header.scss';
+@import './components/sections/_about.scss';
+@import './components/sections/_ingredients.scss';
+@import './components/sections/_menu.scss';
+@import './components/sections/_reservation.scss';
+@import './components/sections/_reviews.scss';
+@import './components/sections/_footer.scss';
+
+.animated{
+    transition-property: none !important;
+    transform: none !important;
+    animation: none !important
+}
+

@@ -4,16 +4,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@700&display=swap");
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-/**
- * Fonts
- * -------------------------------------------------------
- */
-/**
- * Variables
- * -------------------------------------------------------
- */
 .btnDark {
   border: 1px solid black;
   color: white;
@@ -21,12 +14,14 @@
   padding: 20px 30px;
   font-family: "Lato", sans-serif;
   margin-right: 50px;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .btnDark:hover {
   border: 2px;
   background-color: black;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .btnLight {
   border: 1px solid white;
@@ -34,13 +29,15 @@
   background-color: rgba(255, 255, 255, 0.2);
   font-family: "Lato", sans-serif;
   padding: 20px 30px;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .btnLight:hover {
   border: 2px;
   background-color: white;
   color: black;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .btnReservation {
   color: white;
@@ -50,22 +47,25 @@
   padding: 9px 40px;
   text-decoration: none;
   display: table;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .btnReservation:hover {
   cursor: pointer;
   color: white;
   background-color: #c39e37;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 @media (min-width: 320px) and (max-width: 640px) {
   .btnDark {
     margin-right: 0;
-    margin-bottom: 20px; } }
-
+    margin-bottom: 20px;
+  }
+}
 .home_sectionBackground_header {
   height: 100vh;
-  background-image: url("https://i.imgur.com/cJrLXNF.jpg");
+  background-image: url("https://i.ibb.co/gWc5gVC/cJrLXNF.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -75,69 +75,85 @@
   -webkit-box-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .home_sectionBackground_header_nav_listContainer {
   display: -webkit-box;
   justify-content: space-around;
   -webkit-box-align: center;
   align-items: center;
-  display: none; }
+  display: none;
+}
 
 .home_sectionBackground_header_nav {
   display: grid;
-  grid-template-columns: 3fr 8fr; }
+  grid-template-columns: 3fr 8fr;
+}
 
 .home_sectionBackground_header_nav_ul {
-  list-style: none; }
+  list-style: none;
+}
 
 .home_sectionBackground_header_nav_ul > .home_sectionBackground_header_nav_ul_li {
   display: inline;
-  padding: 0px 30px; }
+  padding: 0px 30px;
+}
 
 .home_sectionBackground_header_nav_ul_li__a {
   color: white;
   text-decoration: none;
   font-family: "Gentium Book Basic", serif;
-  padding-top: 35px; }
+  padding-top: 35px;
+}
 
 .home_sectionBackground_header_nav_ul_li__a:hover,
 .home_sectionBackground_header_nav_ul_li__a:active,
 .home_sectionBackground_header_nav_ul_li__a:focus {
-  border-top: 2px solid #c2bfb7; }
+  border-top: 2px solid #c2bfb7;
+}
 
 .active {
-  border-top: 2px solid #c2bfb7; }
+  border-top: 2px solid #c2bfb7;
+}
 
 .home_sectionBackground_header_nav_socialContainer {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: end;
   justify-content: flex-end;
-  padding: 20px; }
+  padding: 20px;
+}
 
 .home_sectionBackground_header_nav_ul_li__a--social__iconify {
   padding: 0 5px;
-  color: #dab33e; }
+  color: #dab33e;
+}
 
 .home_sectionBackground_header_nav_ul_li__a--social__iconify:hover {
-  color: #b99526; }
+  color: #b99526;
+}
 
 .home_sectionBackground_header_nav_ul--social {
-  list-style: none; }
+  list-style: none;
+}
 
 .home_sectionBackground_header_nav_ul--social > .home_sectionBackground_header_nav_ul_li--social {
-  display: inline; }
+  display: inline;
+}
 
 .home_sectionBackground_header_nav_ul_li__a--social {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .sectionTitle {
-  grid-row: 2; }
+  grid-row: 2;
+}
 
 .sectionTitle_titles {
   display: grid;
-  grid-column: 2; }
+  grid-column: 2;
+}
 
 .sectionTitle__h1 {
   text-align: center;
@@ -146,7 +162,8 @@
   font-size: 22px;
   letter-spacing: 3px;
   margin-bottom: 30px;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .sectionTitle__buttons {
   text-align: center;
@@ -154,147 +171,270 @@
   display: grid;
   -webkit-box-pack: center;
   justify-content: center;
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 .sectionTitle__img {
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .home_sectionBackground_header_nav_ul_li__a--social > span {
   width: 30px;
-  height: 30px; }
+  height: 30px;
+}
 
 .header-logo {
-  width: 100%; }
+  width: 100%;
+}
 
+@media (min-width: 640px) and (max-width: 1023px) {
+  .home_sectionBackground_header_nav {
+    grid-template-columns: 3fr 10fr 2fr;
+  }
+
+  .home_sectionBackground_header_nav_ul > .home_sectionBackground_header_nav_ul_li {
+    padding: 0px 29px;
+  }
+
+  .home_sectionBackground_header_nav_socialContainer {
+    align-items: center;
+    -webkit-box-pack: end;
+  }
+
+  .sectionTitle__h1 {
+    font-size: 40px;
+  }
+
+  .sectionTitle__buttons {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .home_sectionBackground_header_nav--scroll {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+  }
+
+  .header-logo--scroll {
+    width: 120px !important;
+  }
+
+  .home_sectionBackground_header_nav_ul_li__a--scroll {
+    padding-top: 15px;
+  }
+
+  .home_sectionBackground_header_nav_container {
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .home_sectionBackground_header {
+    padding: 0 90px;
+  }
+
+  .home_sectionBackground_header_nav_listContainer {
+    display: flex;
+  }
+
+  .home_sectionBackground_header_nav {
+    grid-template-columns: 2fr 9fr 2fr;
+  }
+
+  .home_sectionBackground_header_nav_ul > .home_sectionBackground_header_nav_ul_li {
+    padding: 0px 25px;
+  }
+
+  .home_sectionBackground_header_nav_socialContainer {
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .sectionTitle__h1 {
+    font-size: 60px;
+  }
+
+  .sectionTitle__buttons {
+    margin-top: 60px;
+    display: block;
+  }
+
+  .home_sectionBackground_header_nav--scroll {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+  }
+
+  .header-logo--scroll {
+    width: 120px !important;
+  }
+
+  .home_sectionBackground_header_nav_ul_li__a--scroll {
+    padding-top: 15px;
+  }
+}
 .sectionAbout {
-  background-image: url("https://i.imgur.com/9AqtWIp.png");
+  background-image: url("https://i.ibb.co/QNZQgmJ/9AqtWIp.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   -webkit-column-gap: 20px;
   -moz-column-gap: 20px;
   column-gap: 20px;
   grid-template-columns: 1fr;
-  padding: 50px 10px; }
+  padding: 50px 10px;
+}
 
 .sectionAbout_text {
   -webkit-box-pack: center;
   justify-content: center;
   align-self: center;
-  text-align: center; }
+  text-align: center;
+}
 
 .sectionAbout_text__h2 {
   font-family: "Yeseva One", cursive;
   color: #cc9900;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .sectionAbout_text__parraf {
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+}
 
 .sectionAbout_text__img {
-  padding: 20px 0 0 80px; }
+  padding: 20px 0 0 80px;
+}
 
 .sectionAbout_image > img {
-  width: 100%; }
+  width: 100%;
+}
 
+@media (min-width: 1024px) {
+  .sectionAbout {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 120px;
+    padding-top: 70px;
+  }
+}
 .sectionIngredients {
-  background-image: url("https://i.imgur.com/tQp6156.png");
+  background-image: url("https://i.ibb.co/M6ns1j6/tQp6156.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
-  padding: 0; }
+  padding: 0;
+}
 
 .sectionIngredients_container {
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding: 20px;
   display: grid;
-  grid-column: 2; }
+  grid-column: 2;
+}
 
 .sectionIngredients_container__h2 {
   font-family: "Yeseva One", cursive;
   color: white;
   margin-bottom: 20px;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .sectionIngredients_container__parraf {
   font-family: "Lato", sans-serif;
   color: white;
-  margin: 20px 0; }
+  margin: 20px 0;
+}
 
 .sectionIngredients_container_images {
   margin-top: 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; }
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .sectionIngredients_container_images > img {
-  width: 80%; }
+  width: 80%;
+}
 
 .sectionIngredients_container__divider {
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-.sectionIngredients_container_list {
-  display: grid;
-  grid-template-columns: 4fr 9fr 4fr;
-  display: none; }
+@media (min-width: 640px) and (max-width: 1023px) {
+  .sectionIngredients {
+    padding: 50px 10px;
+  }
 
-.sectionIngredients_container_list__iconify {
-  color: white; }
+  .sectionMenu_rowOne,
+.sectionMenu_rowTwo {
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .sectionIngredients {
+    padding: 50px 120px;
+    grid-template-columns: 6fr 6fr;
+  }
 
-.sectionIngredients_container_list__ul {
-  display: grid;
-  grid-column: 2;
-  text-align: left; }
+  .sectionIngredients_container {
+    padding: 50px;
+  }
 
-.sectionIngredients_container_list__li {
-  color: white;
-  font-family: "Lato", sans-serif;
-  list-style: none; }
-
+  .sectionIngredients_container_images > img {
+    width: 100%;
+  }
+}
 .sectionMenu {
-  background-image: url("https://i.imgur.com/fTp3iph.png");
+  background-image: url("https://i.ibb.co/ThvRvjW/fTp3iph.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #cc9900;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
   -webkit-box-align: end;
   align-items: end;
-  display: block;
-  padding: 50px 10px; }
-
-.sectionMenu_rowOne {
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 20px; }
-
-.sectionMenu_rowTwo {
-  display: grid;
-  grid-template-columns: 1fr;
-  row-gap: 20px; }
+  padding: 50px 10px;
+  row-gap: 20px;
+}
 
 .sectionMenu_menusPrices {
-  margin: 25px 0; }
+  margin: 25px 0;
+}
 
 .sectionMenu_menusPrices_special_container {
   border: 1px solid #cc9900;
-  padding: 0 10px; }
+  padding: 0 10px;
+}
 
 .sectionMenu_menusPrices_special_badgeContainer {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: end;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+}
 
 .sectionMenu_menusPrices_special__badge {
   background-color: rgba(217, 192, 120, 0.6);
   padding: 8px 20px;
   color: white;
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+}
 
 .sectionMenu_menuOne_h1 {
   font-family: "Yeseva One", cursive;
@@ -302,7 +442,8 @@
   text-align: center;
   height: 0px;
   color: #cc9900;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 .sectionMenu_menuOne_subtitle {
   font-family: "Yeseva One", cursive;
@@ -313,117 +454,46 @@
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .sectionMenu_menuOne_parraf {
   font-family: "Lato", sans-serif;
   color: #4c4c4c;
-  padding: 10px 0; }
+  padding: 10px 0;
+}
 
 .setionMenu__divider {
   margin: 0 auto;
-  display: block; }
+  display: block;
+}
 
-.sectionReviews {
-  background-image: url("https://i.imgur.com/fJdUMGl.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 50px 10px; }
-
-.sectionReviews_container {
-  display: grid;
-  grid-column: 2;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  padding: 100px 0; }
-
-.sectionReviews_container_rowOne {
-  margin: 0 auto 20px; }
-
-.sectionReviews_container__title {
-  text-align: center;
-  font-family: "Yeseva One", cursive;
-  margin-bottom: 10px;
-  font-weight: 500; }
-
-.sectionReviews_container__parraf {
-  color: #dde0df;
-  text-align: center;
-  font-family: "Gentium Book Basic", serif;
-  display: grid;
-  grid-column: 2;
-  line-height: 30px; }
-
-.sectionReviews_container__parraf__iconify {
-  font-size: 40px;
-  display: grid;
-  grid-column: 1;
-  color: rgba(242, 244, 244, 0.57); }
-
-.sectionReviews_container_rowTwo {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  justify-items: end; }
-
-.sectionReviews_container__parraf__place {
-  font-family: "Lato", sans-serif;
-  padding-top: 50px; }
-
-.btnDark {
-  border: 1px solid black;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 20px 30px;
-  font-family: "Lato", sans-serif;
-  margin-right: 50px;
-  text-decoration: none; }
-
-.btnDark:hover {
-  border: 2px;
-  background-color: black;
-  font-weight: bold; }
-
-.btnLight {
-  border: 1px solid white;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  font-family: "Lato", sans-serif;
-  padding: 20px 30px;
-  text-decoration: none; }
-
-.btnLight:hover {
-  border: 2px;
-  background-color: white;
-  color: black;
-  font-weight: bold; }
-
-.btnReservation {
-  color: white;
-  background-color: #c9a131;
-  border: none;
-  font-family: "Lato", sans-serif;
-  padding: 9px 40px;
-  text-decoration: none;
-  display: table;
-  margin: 0 auto; }
-
-.btnReservation:hover {
-  cursor: pointer;
-  color: white;
-  background-color: #c39e37;
-  font-weight: bold; }
-
-@media (min-width: 320px) and (max-width: 640px) {
-  .btnDark {
-    margin-right: 0;
-    margin-bottom: 20px; } }
-
+@media (min-width: 640px) and (max-width: 1023px) {
+  .sectionMenu {
+    -webkit-box-align: end;
+    align-items: end;
+    padding: 0 10px;
+    display: block;
+    padding: 50px 20px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .sectionMenu {
+    display: grid;
+    padding: 0 120px;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 77px;
+    column-gap: 100px;
+    padding-top: 145px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
 .sectionReservation {
   display: grid;
-  background-image: url("https://i.imgur.com/RIQYYxa.png");
+  background-image: url("https://i.ibb.co/yQBhGG5/RIQYYxa.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -431,32 +501,35 @@
   grid-template-columns: 1fr;
   -webkit-column-gap: 70px;
   -moz-column-gap: 70px;
-  column-gap: 70px; }
+  column-gap: 70px;
+}
 
 .sectionReservation_colOne {
   display: grid;
   grid-template-columns: 1fr;
   -webkit-column-gap: 30px;
   -moz-column-gap: 30px;
-  column-gap: 30px; 
-  display:none;
+  column-gap: 30px;
 }
 
 .sectionReservation_colTwo_title {
   font-family: "Yeseva One", cursive;
   color: #cc9900;
   text-align: center;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .sectionReservation_colTwo_divider {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .sectionReservation_colTwo_parraf {
   color: #4c4c4c;
   font-family: "Lato", sans-serif;
   text-align: center;
-  padding-top: 30px; }
+  padding-top: 30px;
+}
 
 .sectionReservation_colTwo_form {
   -webkit-box-align: end;
@@ -467,12 +540,14 @@
   padding-top: 40px;
   display: grid;
   grid-template-columns: 1fr;
-  text-align: center; }
+  text-align: center;
+}
 
 .sectionReservation_colTwo_form > div > label {
   font-family: "Open Sans", sans-serif;
   color: #cc9900;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .sectionReservation_colTwo_form__input {
   font-family: "Open Sans", sans-serif;
@@ -481,11 +556,13 @@
   padding: 6px;
   border: none;
   outline: none;
-  width: 80%; }
+  width: 80%;
+}
 
 .sectionReservation_colTwo_form__input:focus {
   border: 1px solid #cc9900;
-  outline: 1px solid #cc9900; }
+  outline: 1px solid #cc9900;
+}
 
 .sectionReservation_colOne > img {
   width: 100%;
@@ -494,6 +571,86 @@
   object-fit: cover;
 }
 
+@media (min-width: 1024px) {
+  .sectionReservation {
+    padding: 50px 120px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sectionReservation_colOne {
+    grid-template-columns: 3fr 3fr;
+  }
+
+  .sectionReservation_colTwo_form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sectionReservation_colTwo_form__input {
+    width: 100%;
+  }
+}
+.sectionReviews {
+  background-image: url("https://i.ibb.co/f4Hg61M/fJdUMGl.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 50px 10px;
+}
+
+.sectionReviews_container {
+  display: grid;
+  grid-column: 2;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 100px 0;
+}
+
+.sectionReviews_container_rowOne {
+  margin: 0 auto 20px;
+}
+
+.sectionReviews_container__title {
+  text-align: center;
+  font-family: "Yeseva One", cursive;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.sectionReviews_container__parraf {
+  color: #dde0df;
+  text-align: center;
+  font-family: "Gentium Book Basic", serif;
+  display: grid;
+  grid-column: 2;
+  line-height: 30px;
+}
+
+.sectionReviews_container__parraf__iconify {
+  font-size: 40px;
+  display: grid;
+  grid-column: 1;
+  color: rgba(242, 244, 244, 0.57);
+}
+
+.sectionReviews_container_rowTwo {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  justify-items: end;
+}
+
+.sectionReviews_container__parraf__place {
+  font-family: "Lato", sans-serif;
+  padding-top: 50px;
+}
+
+@media (min-width: 1024px) {
+  .sectionReviews {
+    padding: 50px 120px;
+    grid-template-columns: 2fr 8fr 2fr;
+  }
+}
 footer {
   background-color: #191919;
   color: white;
@@ -502,7 +659,8 @@ footer {
   padding: 50px 10px;
   -webkit-column-gap: 20px;
   -moz-column-gap: 20px;
-  column-gap: 20px; }
+  column-gap: 20px;
+}
 
 .footer_about__title,
 .footer_hours__title,
@@ -511,48 +669,73 @@ footer {
   font-family: "Yeseva One", cursive;
   text-align: center;
   margin-bottom: 10px;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .footer_about__parraf,
 .footer_hours__parraf {
   color: white;
   font-family: "Open Sans", sans-serif;
-  text-align: center; }
+  text-align: center;
+}
 
 .footer_directions__parraf {
   color: white;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .footer_about > img,
 .footer_hours > img,
 .footer_directions > img {
   display: block;
-  margin: 15px auto; }
+  margin: 15px auto;
+}
 
 .footer_hours_payments {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 .footer_directions {
-  text-align: center; }
+  text-align: center;
+}
 
 .footer_directions_social {
-  margin-top: 50px; }
+  margin-top: 50px;
+}
 
 .footer_directions_social__ul {
-  list-style: none; }
+  list-style: none;
+}
 
 .footer_directions_social__ul__list {
   display: inline;
-  padding: 0 2px; }
+  padding: 0 2px;
+}
 
 .footer_directions_social__ul__list__a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+@media (min-width: 640px) and (max-width: 1023px) {
+  footer {
+    row-gap: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  footer {
+    grid-template-columns: 4fr 3fr 3fr;
+    padding: 50px 120px;
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+  }
+}
 .animated {
   transition-property: none !important;
   transform: none !important;
-  animation: none !important; }
+  animation: none !important;
+}
