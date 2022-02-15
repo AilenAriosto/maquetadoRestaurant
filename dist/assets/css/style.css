@@ -668,21 +668,20 @@ footer {
   color: white;
   font-family: "Yeseva One", cursive;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 500;
 }
 
 .footer_about__parraf,
-.footer_hours__parraf {
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-}
-
+.footer_hours__parraf,
 .footer_directions__parraf {
   color: white;
   font-family: "Open Sans", sans-serif;
   text-align: center;
+  margin-top: 20px;
+}
+
+.footer_directions__parraf {
   font-weight: bold;
 }
 
@@ -703,7 +702,7 @@ footer {
 }
 
 .footer_directions_social {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .footer_directions_social__ul {
@@ -740,4 +739,30 @@ footer {
     transform: none !important;
     animation: none !important;
   }
+}
+.dividerGold {
+  background-image: url("https://i.ibb.co/9nz95LR/FgTWHbQ.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 24px;
+  width: 100%;
+}
+
+.dividerWhiteBig {
+  background-image: url("https://i.ibb.co/gPRB38N/EF17PtG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 43px;
+  width: 100%;
+}
+
+.dividerWhiteSmall {
+  background-image: url("https://i.ibb.co/3YVFLXD/o8za0dT.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 24px;
+  width: 100%;
 }

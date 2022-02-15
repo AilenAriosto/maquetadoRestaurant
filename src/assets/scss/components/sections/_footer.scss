@@ -16,22 +16,20 @@ footer{
     color: white;
     font-family: $yeseva;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-weight: 500;
 }
 
 .footer_about__parraf,
-.footer_hours__parraf
-{
-    color: white;
-    font-family: $open;
-    text-align: center;
-}
-
+.footer_hours__parraf,
 .footer_directions__parraf{
     color: white;
     font-family: $open;
     text-align: center;
+    margin-top: 20px;
+}
+
+.footer_directions__parraf{
     font-weight: bold;
 }
 
@@ -52,7 +50,7 @@ footer{
 }
 
 .footer_directions_social{
-    margin-top: 50px;   
+    margin-top: 20px;   
 }
 
 .footer_directions_social__ul{
