@@ -25,6 +25,20 @@
     }
 }
 
-
+.sectionJumpIn{
+    text-indent: -999em;
+    position: absolute;
+    
+    & ul{
+        margin-left: 20px;
+        display: flex;
+        gap: 10px;
+        
+        & li {
+            list-style: none;
+    
+        }   
+    }
+}
 
 

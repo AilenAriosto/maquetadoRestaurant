@@ -46,14 +46,9 @@
 
 .home_sectionBackground_header_nav_ul_li__a:hover,
 .home_sectionBackground_header_nav_ul_li__a:active,
-.home_sectionBackground_header_nav_ul_li__a:focus
-{
+.home_sectionBackground_header_nav_ul_li__a:focus{
     border-top: 2px solid #c2bfb7;
     
-}
-
-.active{
-    border-top: 2px solid #c2bfb7;
 }
 
 .home_sectionBackground_header_nav_socialContainer{
@@ -157,6 +152,8 @@
         left: 0;
         right: 0;
         z-index: 50;
+        display: flex;
+        justify-content: space-around;
     }
 
     .header-logo--scroll{
@@ -214,6 +211,8 @@
         left: 0;
         right: 0;
         z-index: 50;
+        display: flex;
+        justify-content: space-around;
     }
     .header-logo--scroll{
         width: 120px !important;

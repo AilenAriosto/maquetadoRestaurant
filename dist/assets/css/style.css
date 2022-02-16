@@ -18,7 +18,6 @@
 }
 
 .btnDark:hover {
-  border: 2px;
   background-color: black;
   font-weight: bold;
 }
@@ -33,7 +32,6 @@
 }
 
 .btnLight:hover {
-  border: 2px;
   background-color: white;
   color: black;
   font-weight: bold;
@@ -140,10 +138,6 @@
   border-top: 2px solid #c2bfb7;
 }
 
-.active {
-  border-top: 2px solid #c2bfb7;
-}
-
 .home_sectionBackground_header_nav_socialContainer {
   display: -webkit-box;
   display: flex;
@@ -245,6 +239,8 @@
     left: 0;
     right: 0;
     z-index: 50;
+    display: flex;
+    justify-content: space-around;
   }
 
   .header-logo--scroll {
@@ -301,6 +297,8 @@
     left: 0;
     right: 0;
     z-index: 50;
+    display: flex;
+    justify-content: space-around;
   }
 
   .header-logo--scroll {
@@ -752,4 +750,16 @@ footer {
     transform: none !important;
     animation: none !important;
   }
+}
+.sectionJumpIn {
+  text-indent: -999em;
+  position: absolute;
+}
+.sectionJumpIn ul {
+  margin-left: 20px;
+  display: flex;
+  gap: 10px;
+}
+.sectionJumpIn ul li {
+  list-style: none;
 }
