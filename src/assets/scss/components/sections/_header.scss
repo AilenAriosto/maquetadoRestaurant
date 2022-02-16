@@ -48,7 +48,10 @@
 .home_sectionBackground_header_nav_ul_li__a:active,
 .home_sectionBackground_header_nav_ul_li__a:focus{
     border-top: 2px solid #c2bfb7;
-    
+}
+
+.home_sectionBackground_header_nav_ul_li .active{
+    border-top: 2px solid #c2bfb7;
 }
 
 .home_sectionBackground_header_nav_socialContainer{
