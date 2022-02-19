@@ -18,6 +18,7 @@
     -webkit-column-gap: 30px;
        -moz-column-gap: 30px;
             column-gap: 30px;
+    
 }
 
 .sectionReservation_colTwo_title{
@@ -93,3 +94,10 @@
         width: 100%;
     }
 }
+
+@media(max-width:1023px){
+    .sectionReservation_colOne{
+        display: none;
+    }
+}
+    

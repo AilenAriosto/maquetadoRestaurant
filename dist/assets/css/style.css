@@ -604,6 +604,11 @@
     width: 100%;
   }
 }
+@media (max-width: 1023px) {
+  .sectionReservation_colOne {
+    display: none;
+  }
+}
 .sectionReviews {
   background-image: url("https://i.ibb.co/f4Hg61M/fJdUMGl.png");
   background-size: cover;
