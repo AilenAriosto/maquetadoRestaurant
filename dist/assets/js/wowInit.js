@@ -1,1 +1,3 @@
- new WOW().init();
+window.addEventListener('load', function(){
+    new WOW().init();
+})

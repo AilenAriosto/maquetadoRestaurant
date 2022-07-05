@@ -1,6 +1,9 @@
-const gulp = require('gulp');
+var gulp = require('gulp')
+const pug = require('gulp-pug')
 const sass = require('gulp-sass')(require('sass'));
-const pug = require('gulp-pug');
+const { watch, series } = require('gulp');
+var browserSync = require('browser-sync').create();
+var reload = browserSync.reload;
 
 gulp.task('pug', () => {
     return gulp.src('src/views/*.pug')
@@ -15,3 +18,16 @@ gulp.task('sass', () => {
         .pipe(sass())
         .pipe(gulp.dest('dist/assets/css'));    
 });
+
+exports.default = function() {
+    browserSync.init({
+        server: {
+            baseDir: "./dist/"
+        }
+    });
+    watch([
+      'src/views/*.pug',
+      'src/assets/scss/*.scss'
+    ], series('pug', 'sass')).on("change", reload);
+
+};

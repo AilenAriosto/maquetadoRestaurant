@@ -216,25 +216,20 @@
   .home_sectionBackground_header_nav {
     grid-template-columns: 3fr 10fr 2fr;
   }
-
   .home_sectionBackground_header_nav_ul > .home_sectionBackground_header_nav_ul_li {
     padding: 0px 29px;
   }
-
   .home_sectionBackground_header_nav_socialContainer {
     align-items: center;
     -webkit-box-pack: end;
   }
-
   .sectionTitle__h1 {
     font-size: 40px;
   }
-
   .sectionTitle__buttons {
     display: block;
     margin-top: 50px;
   }
-
   .home_sectionBackground_header_nav--scroll {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
@@ -246,15 +241,12 @@
     display: flex;
     justify-content: space-around;
   }
-
   .header-logo--scroll {
     width: 120px !important;
   }
-
   .home_sectionBackground_header_nav_ul_li__a--scroll {
     padding-top: 15px;
   }
-
   .home_sectionBackground_header_nav_container {
     text-align: center;
   }
@@ -263,19 +255,15 @@
   .home_sectionBackground_header {
     padding: 0 90px;
   }
-
   .home_sectionBackground_header_nav_listContainer {
     display: flex;
   }
-
   .home_sectionBackground_header_nav {
     grid-template-columns: 2fr 9fr 2fr;
   }
-
   .home_sectionBackground_header_nav_ul > .home_sectionBackground_header_nav_ul_li {
     padding: 0px 25px;
   }
-
   .home_sectionBackground_header_nav_socialContainer {
     -webkit-box-pack: center;
     justify-content: center;
@@ -283,16 +271,13 @@
     align-items: center;
     padding: 0;
   }
-
   .sectionTitle__h1 {
     font-size: 60px;
   }
-
   .sectionTitle__buttons {
     margin-top: 60px;
     display: block;
   }
-
   .home_sectionBackground_header_nav--scroll {
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
@@ -304,11 +289,9 @@
     display: flex;
     justify-content: space-around;
   }
-
   .header-logo--scroll {
     width: 120px !important;
   }
-
   .home_sectionBackground_header_nav_ul_li__a--scroll {
     padding-top: 15px;
   }
@@ -403,7 +386,6 @@
   .sectionIngredients {
     padding: 50px 10px;
   }
-
   .sectionMenu_rowOne,
 .sectionMenu_rowTwo {
     -webkit-column-gap: 30px;
@@ -416,11 +398,9 @@
     padding: 50px 120px;
     grid-template-columns: 6fr 6fr;
   }
-
   .sectionIngredients_container {
     padding: 50px;
   }
-
   .sectionIngredients_container_images > img {
     width: 100%;
   }
@@ -591,15 +571,12 @@
     padding: 50px 120px;
     grid-template-columns: 1fr 1fr;
   }
-
   .sectionReservation_colOne {
     grid-template-columns: 3fr 3fr;
   }
-
   .sectionReservation_colTwo_form {
     grid-template-columns: 1fr 1fr;
   }
-
   .sectionReservation_colTwo_form__input {
     width: 100%;
   }
